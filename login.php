@@ -69,7 +69,7 @@ $stmt = $connect->prepare('SELECT id, nombre, usuario, email,clave, cargo FROM u
     <title>Login</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css "href="assets/css/style.css">
-    <link rel="stylesheet" type="text/css "href="assets/css/css/all.min.css">
+    <!-- <link rel="stylesheet" type="text/css "href="assets/css/css/all.min.css"> -->
     <link rel="stylesheet" href="assets/css/sweetalert.css">
 	<link rel="icon" href="assets/img/logo.png" type="image/x-icon"/>
 	<script src="https://kit.fontawesome.com/a81368914c.js"></script>

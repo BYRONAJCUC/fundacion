@@ -37,7 +37,8 @@ $id=$_SESSION['id'];
 	</script>
 
 	<!-- CSS Files -->
-	<link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="../../assets/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="../../assets/css/atlantis.min.css">
 
 	<!-- CSS Just for demo purpose, don't include it in your project -->
@@ -97,14 +98,14 @@ $id=$_SESSION['id'];
 							</a>
 							<ul class="dropdown-menu notif-box animated fadeIn" aria-labelledby="notifDropdown">
 								<li>
-									<div class="dropdown-title">You have 0 new notification</div>
+									<div class="dropdown-title">Tienes 0 notificaciones</div>
 								</li>
 								<li>
 								
 									
 								</li>
 								<li>
-									<a class="see-all" href="javascript:void(0);">See all notifications<i class="fa fa-angle-right"></i> </a>
+									<a class="see-all" href="javascript:void(0);">Ver todas las notificaciones<i class="fa fa-angle-right"></i> </a>
 								</li>
 							</ul>
 						</li>
@@ -124,16 +125,16 @@ $id=$_SESSION['id'];
 											<div class="avatar-lg"><img src="../../assets/img/mujer.png" alt="image profile" class="avatar-img rounded"></div>
 											<div class="u-text">
 												<h4><?php echo ucfirst($_SESSION['nombre']); ?></h4>
-												<p class="text-muted">Customers</p>
+												<p class="text-muted">Pacientes</p>
 											</div>
 										</div>
 									</li>
 									<li>
 										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="#">My Profile</a>
+										<a class="dropdown-item" href="#">Mi Perfil</a>
 										
 										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="../../cerrarSesion.php">Logout</a>
+										<a class="dropdown-item" href="../../index.php">Salir</a>
 									</li>
 								</div>
 							</ul>
@@ -166,13 +167,13 @@ $id=$_SESSION['id'];
 								<ul class="nav">
 									<li>
 										<a href="#profile">
-											<span class="link-collapse">My Profile</span>
+											<span class="link-collapse">Mi Perfil</span>
 										</a>
 									</li>
 									
 									<li>
 										<a href="../cerrarSesion.php">
-											<span class="link-collapse">Logout</span>
+											<span class="link-collapse">Salir</span>
 										
 										</a>
 									</li>
@@ -263,7 +264,7 @@ if($query){
 									<div class="row mt-3">
 										<div class="col-md-4">
 											<div class="form-group form-group-default">
-												<label>DNI</label>
+												<label>DPI</label>
 												<input type="text" class="form-control" value="<?php echo $d->dnipa; ?>" name="dnipa" placeholder="DNI" placeholder="77764664">
 											</div>
 										</div>

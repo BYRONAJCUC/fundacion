@@ -2,10 +2,10 @@
 session_start();
 
 // Define database
-define('dbhost', 'localhost');
-define('dbuser', 'root');
-define('dbpass', '');
-define('dbname', 'proyecto_final');
+define('dbhost', '66.165.234.218');
+define('dbuser', 'systemsg_cryz');
+define('dbpass', '-U0(Y=kRG26z');
+define('dbname', 'systemsg_cryz');
 
 // Connecting database
 try {

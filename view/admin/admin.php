@@ -28,7 +28,8 @@
 	</script>
 
 	<!-- CSS Files -->
-	<link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="../../assets/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="../../assets/css/atlantis.min.css">
 
 	<!-- CSS Just for demo purpose, don't include it in your project -->
@@ -80,7 +81,7 @@
 								<i class="fa fa-search"></i>
 							</a>
 						</li>
-						<li class="nav-item dropdown hidden-caret">
+						<!-- <li class="nav-item dropdown hidden-caret">
 							<a class="nav-link dropdown-toggle" href="#" id="messageDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								<i class="fa fa-envelope"></i>
 							</a>
@@ -98,7 +99,7 @@
 									<a class="see-all" href="javascript:void(0);">See all messages<i class="fa fa-angle-right"></i> </a>
 								</li>
 							</ul>
-						</li>
+						</li> -->
 						<li class="nav-item dropdown hidden-caret">
 							<a class="nav-link dropdown-toggle" href="#" id="notifDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								<i class="fa fa-bell"></i>
@@ -106,14 +107,14 @@
 							</a>
 							<ul class="dropdown-menu notif-box animated fadeIn" aria-labelledby="notifDropdown">
 								<li>
-									<div class="dropdown-title">You have 0 new notification</div>
+									<div class="dropdown-title">Tienes 0 notificaciones</div>
 								</li>
 								<li>
 								
 									
 								</li>
 								<li>
-									<a class="see-all" href="javascript:void(0);">See all notifications<i class="fa fa-angle-right"></i> </a>
+									<a class="see-all" href="javascript:void(0);">Ver todas las notificaciones<i class="fa fa-angle-right"></i> </a>
 								</li>
 							</ul>
 						</li>
@@ -121,7 +122,7 @@
 						<li class="nav-item dropdown hidden-caret">
 							<a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#" aria-expanded="false">
 								<div class="avatar-sm">
-									<img src="../../assets/img/mujer.png" alt="..." class="avatar-img rounded-circle">
+									<img src="../../assets/img/avatar.png" alt="..." class="avatar-img rounded-circle">
 								</div>
 							</a>
 							<ul class="dropdown-menu dropdown-user animated fadeIn">
@@ -129,19 +130,19 @@
 									<li>
 										<div class="user-box">
 										
-											<div class="avatar-lg"><img src="../../assets/img/mujer.png" alt="image profile" class="avatar-img rounded"></div>
+											<div class="avatar-lg"><img src="../../assets/img/avatar.png" alt="image profile" class="avatar-img rounded"></div>
 											<div class="u-text">
 												<h4><?php echo ucfirst($_SESSION['nombre']); ?></h4>
-												<p class="text-muted">Administrador</p><a href="profile.html" class="btn btn-xs btn-secondary btn-sm">View Profile</a>
+												<p class="text-muted">Administrador</p><a href="profile.html" class="btn btn-xs btn-secondary btn-sm">Ver Perfil</a>
 											</div>
 										</div>
 									</li>
 									<li>
 										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="#">My Profile</a>
+										<a class="dropdown-item" href="#">Mi Perfil</a>
 										
 										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="../../cerrarSesion.php">Logout</a>
+										<a class="dropdown-item" href="../../index.php">Salir</a>
 									</li>
 								</div>
 							</ul>
@@ -158,7 +159,7 @@
 				<div class="sidebar-content">
 					<div class="user">
 						<div class="avatar-sm float-left mr-2">
-							<img src="../../assets/img/mujer.png" alt="..." class="avatar-img rounded-circle">
+							<img src="../../assets/img/avatar.png" alt="..." class="avatar-img rounded-circle">
 						</div>
 						<div class="info">
 							<a data-toggle="collapse" href="#collapseExample" aria-expanded="true">
@@ -174,17 +175,17 @@
 								<ul class="nav">
 									<li>
 										<a href="#profile">
-											<span class="link-collapse">My Profile</span>
+											<span class="link-collapse">Mi Perfil</span>
 										</a>
 									</li>
 									<li>
 										<a href="#edit">
-											<span class="link-collapse">Edit Profile</span>
+											<span class="link-collapse">Editar Perfil</span>
 										</a>
 									</li>
 									<li>
 										<a href="#settings">
-											<span class="link-collapse">Settings</span>
+											<span class="link-collapse">Ajustes</span>
 										</a>
 									</li>
 								</ul>
@@ -512,10 +513,11 @@ if($query){
 	<script src="../../assets/js/core/jquery.3.2.1.min.js"></script>
 	<script src="../../assets/js/core/popper.min.js"></script>
 	<script src="../../assets/js/core/bootstrap.min.js"></script>
+	<!-- <scrip src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"></scrip> -->
 
 	<!-- jQuery UI -->
-	<script src="../../assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
-	<script src="../../assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js"></script>
+	<!-- <script src="../../assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+	<script src="../../assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js"></script> -->
 
 	<!-- jQuery Scrollbar -->
 	<script src="../../assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
@@ -534,7 +536,7 @@ if($query){
 	<script src="../../assets/js/plugin/datatables/datatables.min.js"></script>
 
 	<!-- Bootstrap Notify -->
-	
+	<script src="../../assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
 
 	<!-- jQuery Vector Maps -->
 	<script src="../../assets/js/plugin/jqvmap/jquery.vmap.min.js"></script>
@@ -547,8 +549,8 @@ if($query){
 	<script src="../../assets/js/atlantis.min.js"></script>
 
 	<!-- Atlantis DEMO methods, don't include it in your project! -->
-	<script src="../../assets/js/setting-demo.js"></script>
-	<script src="../../assets/js/demo.js"></script>
+	<!-- <script src="../../assets/js/setting-demo.js"></script>
+	<script src="../../assets/js/demo.js"></script> -->
 	<script>
 		Circles.create({
 			id:'circles-1',

@@ -1,10 +1,10 @@
 <?php
 function conectar(){
 $conexion=null;
-$host='127.0.0.1';
-$db='proyecto_final';
-$user = "root";
-$pass= "";
+$host='66.165.234.218';
+$db='systemsg_cryz';
+$user = "systemsg_cryz";
+$pass= "-U0(Y=kRG26z";
 try {
   $conexion= new PDO('mysql:host='.$host.';dbname='.$db, $user,$pass);
 

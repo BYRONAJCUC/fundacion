@@ -1,11 +1,11 @@
 <?php
-	$contrasena = '';
-	$usuario = 'root';
-	$nombrebd= 'proyecto_final';
+	$contrasena = '-U0(Y=kRG26z';
+	$usuario = 'systemsg_cryz';
+	$nombrebd= 'systemsg_cryz';
 
 	try {
 		$bd = new PDO(
-			'mysql:host=localhost;
+			'mysql:host=66.165.234.218;
 			dbname='.$nombrebd,
 			$usuario,
 			$contrasena,
