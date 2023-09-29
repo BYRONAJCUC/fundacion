@@ -1,0 +1,11 @@
+{
+    "authors": [
+        {
+            "name": "Byron Ajcúc",
+            "email": "bajcucg@miumg.edu.gt"
+        }
+    ],
+    "require": {
+        "composer/installers": "^1.0.20"
+    }
+}
