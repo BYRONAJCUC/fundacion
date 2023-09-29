@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '2794bd8eea9050d31e379968f8125ee241a67587',
+        'reference' => '886fce12a1c688d37db110d5425f0e0cafc52b09',
         'name' => '__root__',
         'dev' => true,
     ),
@@ -16,29 +16,8 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '2794bd8eea9050d31e379968f8125ee241a67587',
+            'reference' => '886fce12a1c688d37db110d5425f0e0cafc52b09',
             'dev_requirement' => false,
-        ),
-        'composer/installers' => array(
-            'pretty_version' => 'v1.12.0',
-            'version' => '1.12.0.0',
-            'type' => 'composer-plugin',
-            'install_path' => __DIR__ . '/./installers',
-            'aliases' => array(),
-            'reference' => 'd20a64ed3c94748397ff5973488761b22f6d3f19',
-            'dev_requirement' => false,
-        ),
-        'roundcube/plugin-installer' => array(
-            'dev_requirement' => false,
-            'replaced' => array(
-                0 => '*',
-            ),
-        ),
-        'shama/baton' => array(
-            'dev_requirement' => false,
-            'replaced' => array(
-                0 => '*',
-            ),
         ),
     ),
 );

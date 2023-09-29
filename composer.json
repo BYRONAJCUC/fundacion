@@ -6,7 +6,7 @@
         }
     ],
     "require": {
-        "composer/installers": "^1.0.20"
+        "php": ">=7.4"
     },
     "config": {
         "allow-plugins": {
